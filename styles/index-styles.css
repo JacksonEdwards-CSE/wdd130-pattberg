@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* ======================
+   GLOBAL RESET
+====================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.6;
+}
+
+main{
+    max-width:1200px;
+    margin:auto;
+}
+
+h1{
+    font-family: Merriweather;
+}
+
+p, h2, h3{
+    font-family: "Open Sans";
+}
+
+/* ======================
+   HEADER
+====================== */
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 40px;
+    margin: 0 0 10px;
+    background-color: #2F5D50;
+}
+
+.logo{
+    width:120px;
+    height:auto;
+}
+
+#nav-bar{
+    display:flex;
+    gap:40px;
+}
+
+#nav-bar a{
+    text-decoration:none;
+    font-size:1.2rem;
+    color: white;
+}
+
+/* ======================
+   HERO SECTION
+====================== */
+
+#hero-image{
+    position:relative;
+    width:100%;
+    height:400px;
+    overflow:hidden;
+}
+
+#hero-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+#hero-image h1,
+#hero-image h2{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    text-align:center;
+    width:100%;
+}
+
+#hero-image h1{
+    top:40%;
+    font-size:2.5rem;
+}
+
+#hero-image h2{
+    top:65%;
+    font-size:1.5rem;
+}
+
+/* ======================
+   INFO SECTION (About + Why)
+====================== */
+
+#content-grid{
+    padding:40px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+#content-grid > h1{
+    grid-column:1 / -1;
+    text-align:center;
+    margin-top:20px;
+}
+
+.info{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* ======================
+   FEATURED LOCATIONS
+====================== */
+
+.info img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.feature-card{
+    display:grid;
+    grid-template-rows:auto auto 1fr;
+    gap:10px;
+}
+
+/* ======================
+   FOOTER
+====================== */
+
+footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    padding:30px;
+    margin-top:40px;
+    background-color: #2F5D50;
+}
+
+footer img{
+    width:80px;
+}
