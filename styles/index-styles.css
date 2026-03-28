@@ -151,3 +151,55 @@ footer{
 footer img{
     width:80px;
 }
+
+/* Idaho and Minnesota pages */
+.other-page .hero {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid;
+}
+
+.other-page .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.other-page .hero p {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* forward row layout */
+.other-page .row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    border-bottom: 1px solid;
+}
+
+/* reverse row layout */
+
+.other-page .row-reverse {
+    flex-direction: row-reverse;
+}
+
+.other-page .text {
+    flex: 1;
+}
+
+.other-page .text h2 {
+    margin-bottom: 10px;
+}
+
+.other-page .image {
+    flex: 1;
+}
+
+.other-page .image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
