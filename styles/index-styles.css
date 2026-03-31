@@ -185,6 +185,8 @@ footer img{
     flex-direction: row-reverse;
     align-items: center;
     gap: 30px;
+    padding: 40px 20px;
+    border-bottom: 1px solid;
 }
 
 .other-page .text {
