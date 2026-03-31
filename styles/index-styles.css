@@ -181,7 +181,10 @@ footer img{
 /* reverse row layout */
 
 .other-page .row-reverse {
+    display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
 }
 
 .other-page .text {
